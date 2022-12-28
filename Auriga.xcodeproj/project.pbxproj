@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1E9C1A5CCC64614558DD1E /* Pods_Auriga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAE37DB3F0B806361DEF25 /* Pods_Auriga.framework */; };
+		D105B0FA295B70AF00289720 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D105B0F9295B70AF00289720 /* GoogleService-Info.plist */; };
+		D105B0FD295B84F900289720 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D105B0FC295B84F900289720 /* FirebaseFirestore */; };
+		D105B0FF295B84FE00289720 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D105B0FE295B84FE00289720 /* FirebaseFirestoreSwift */; };
+		D19D2714295A208100BC2524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2713295A208100BC2524 /* AppDelegate.swift */; };
+		D19D2716295A208100BC2524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2715295A208100BC2524 /* SceneDelegate.swift */; };
+		D19D2718295A208100BC2524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2717295A208100BC2524 /* ViewController.swift */; };
+		D19D271B295A208100BC2524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D2719295A208100BC2524 /* Main.storyboard */; };
+		D19D271D295A208200BC2524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19D271C295A208200BC2524 /* Assets.xcassets */; };
+		D19D2720295A208200BC2524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19D271E295A208200BC2524 /* LaunchScreen.storyboard */; };
+		D19D272A295A26DC00BC2524 /* GreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2729295A26DC00BC2524 /* GreenButton.swift */; };
+		D19D272C295A27CF00BC2524 /* BlueWithLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D272B295A27CF00BC2524 /* BlueWithLineButton.swift */; };
+		D19D272E295A361800BC2524 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D272D295A361800BC2524 /* Extension.swift */; };
+		D19D2730295A474200BC2524 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D272F295A474200BC2524 /* LogInViewController.swift */; };
+		D19D2732295A4F2500BC2524 /* KeyboardAutomaticScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2731295A4F2500BC2524 /* KeyboardAutomaticScrollViewController.swift */; };
+		D19D2738295B5EAF00BC2524 /* RegistryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2737295B5EAF00BC2524 /* RegistryViewController.swift */; };
+		D19D273A295B629600BC2524 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19D2739295B629600BC2524 /* BlueButton.swift */; };
+		D19D273D295B6F2800BC2524 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D19D273C295B6F2800BC2524 /* FirebaseAnalytics */; };
+		D19D273F295B6F2800BC2524 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D19D273E295B6F2800BC2524 /* FirebaseAuth */; };
+		D19D2741295B6F2800BC2524 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D19D2740295B6F2800BC2524 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ABAE37DB3F0B806361DEF25 /* Pods_Auriga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auriga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959371DE77A07E7C08DC13B5 /* Pods-Auriga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auriga.debug.xcconfig"; path = "Target Support Files/Pods-Auriga/Pods-Auriga.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1E427D04DD2B89AF9B96B9 /* Pods-Auriga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auriga.release.xcconfig"; path = "Target Support Files/Pods-Auriga/Pods-Auriga.release.xcconfig"; sourceTree = "<group>"; };
+		D105B0F9295B70AF00289720 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D19D2710295A208100BC2524 /* Auriga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auriga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19D2713295A208100BC2524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D19D2715295A208100BC2524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D19D2717295A208100BC2524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D19D271A295A208100BC2524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D19D271C295A208200BC2524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19D271F295A208200BC2524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D19D2721295A208200BC2524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19D2729295A26DC00BC2524 /* GreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButton.swift; sourceTree = "<group>"; };
+		D19D272B295A27CF00BC2524 /* BlueWithLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueWithLineButton.swift; sourceTree = "<group>"; };
+		D19D272D295A361800BC2524 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D19D272F295A474200BC2524 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D19D2731295A4F2500BC2524 /* KeyboardAutomaticScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAutomaticScrollViewController.swift; sourceTree = "<group>"; };
+		D19D2737295B5EAF00BC2524 /* RegistryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistryViewController.swift; sourceTree = "<group>"; };
+		D19D2739295B629600BC2524 /* BlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19D270D295A208100BC2524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D105B0FF295B84FE00289720 /* FirebaseFirestoreSwift in Frameworks */,
+				D19D2741295B6F2800BC2524 /* FirebaseDatabase in Frameworks */,
+				D105B0FD295B84F900289720 /* FirebaseFirestore in Frameworks */,
+				D19D273D295B6F2800BC2524 /* FirebaseAnalytics in Frameworks */,
+				D19D273F295B6F2800BC2524 /* FirebaseAuth in Frameworks */,
+				4C1E9C1A5CCC64614558DD1E /* Pods_Auriga.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928E030CF2D7BF45A5CBC4F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				959371DE77A07E7C08DC13B5 /* Pods-Auriga.debug.xcconfig */,
+				BF1E427D04DD2B89AF9B96B9 /* Pods-Auriga.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D105B0FB295B84F900289720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAE37DB3F0B806361DEF25 /* Pods_Auriga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D19D2707295A208100BC2524 = {
+			isa = PBXGroup;
+			children = (
+				D19D2712295A208100BC2524 /* Auriga */,
+				D19D2711295A208100BC2524 /* Products */,
+				D105B0FB295B84F900289720 /* Frameworks */,
+				928E030CF2D7BF45A5CBC4F3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D19D2711295A208100BC2524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19D2710295A208100BC2524 /* Auriga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19D2712295A208100BC2524 /* Auriga */ = {
+			isa = PBXGroup;
+			children = (
+				D19D2713295A208100BC2524 /* AppDelegate.swift */,
+				D19D2715295A208100BC2524 /* SceneDelegate.swift */,
+				D19D2727295A269000BC2524 /* UI */,
+				D19D2717295A208100BC2524 /* ViewController.swift */,
+				D19D272F295A474200BC2524 /* LogInViewController.swift */,
+				D19D2737295B5EAF00BC2524 /* RegistryViewController.swift */,
+				D19D2719295A208100BC2524 /* Main.storyboard */,
+				D19D271C295A208200BC2524 /* Assets.xcassets */,
+				D19D271E295A208200BC2524 /* LaunchScreen.storyboard */,
+				D19D2721295A208200BC2524 /* Info.plist */,
+				D105B0F9295B70AF00289720 /* GoogleService-Info.plist */,
+			);
+			path = Auriga;
+			sourceTree = "<group>";
+		};
+		D19D2727295A269000BC2524 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D19D2728295A269A00BC2524 /* Buttons */,
+				D19D272D295A361800BC2524 /* Extension.swift */,
+				D19D2731295A4F2500BC2524 /* KeyboardAutomaticScrollViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D19D2728295A269A00BC2524 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D19D2729295A26DC00BC2524 /* GreenButton.swift */,
+				D19D272B295A27CF00BC2524 /* BlueWithLineButton.swift */,
+				D19D2739295B629600BC2524 /* BlueButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19D270F295A208100BC2524 /* Auriga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19D2724295A208200BC2524 /* Build configuration list for PBXNativeTarget "Auriga" */;
+			buildPhases = (
+				58DFD994ADF5F39CC2906668 /* [CP] Check Pods Manifest.lock */,
+				D19D270C295A208100BC2524 /* Sources */,
+				D19D270D295A208100BC2524 /* Frameworks */,
+				D19D270E295A208100BC2524 /* Resources */,
+				51B926081571D24A47D87BEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Auriga;
+			packageProductDependencies = (
+				D19D273C295B6F2800BC2524 /* FirebaseAnalytics */,
+				D19D273E295B6F2800BC2524 /* FirebaseAuth */,
+				D19D2740295B6F2800BC2524 /* FirebaseDatabase */,
+				D105B0FC295B84F900289720 /* FirebaseFirestore */,
+				D105B0FE295B84FE00289720 /* FirebaseFirestoreSwift */,
+			);
+			productName = Auriga;
+			productReference = D19D2710295A208100BC2524 /* Auriga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19D2708295A208100BC2524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D19D270F295A208100BC2524 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D19D270B295A208100BC2524 /* Build configuration list for PBXProject "Auriga" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19D2707295A208100BC2524;
+			packageReferences = (
+				D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = D19D2711295A208100BC2524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19D270F295A208100BC2524 /* Auriga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19D270E295A208100BC2524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D105B0FA295B70AF00289720 /* GoogleService-Info.plist in Resources */,
+				D19D2720295A208200BC2524 /* LaunchScreen.storyboard in Resources */,
+				D19D271D295A208200BC2524 /* Assets.xcassets in Resources */,
+				D19D271B295A208100BC2524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51B926081571D24A47D87BEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auriga/Pods-Auriga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Auriga/Pods-Auriga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Auriga/Pods-Auriga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DFD994ADF5F39CC2906668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auriga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19D270C295A208100BC2524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19D2718295A208100BC2524 /* ViewController.swift in Sources */,
+				D19D273A295B629600BC2524 /* BlueButton.swift in Sources */,
+				D19D272A295A26DC00BC2524 /* GreenButton.swift in Sources */,
+				D19D2738295B5EAF00BC2524 /* RegistryViewController.swift in Sources */,
+				D19D2714295A208100BC2524 /* AppDelegate.swift in Sources */,
+				D19D2730295A474200BC2524 /* LogInViewController.swift in Sources */,
+				D19D2732295A4F2500BC2524 /* KeyboardAutomaticScrollViewController.swift in Sources */,
+				D19D272E295A361800BC2524 /* Extension.swift in Sources */,
+				D19D272C295A27CF00BC2524 /* BlueWithLineButton.swift in Sources */,
+				D19D2716295A208100BC2524 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D19D2719295A208100BC2524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19D271A295A208100BC2524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D19D271E295A208200BC2524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19D271F295A208200BC2524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D19D2722295A208200BC2524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D19D2723295A208200BC2524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19D2725295A208200BC2524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959371DE77A07E7C08DC13B5 /* Pods-Auriga.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2VK74VDYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Auriga/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Auriga.Auriga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19D2726295A208200BC2524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1E427D04DD2B89AF9B96B9 /* Pods-Auriga.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2VK74VDYP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Auriga/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Auriga.Auriga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19D270B295A208100BC2524 /* Build configuration list for PBXProject "Auriga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19D2722295A208200BC2524 /* Debug */,
+				D19D2723295A208200BC2524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19D2724295A208200BC2524 /* Build configuration list for PBXNativeTarget "Auriga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19D2725295A208200BC2524 /* Debug */,
+				D19D2726295A208200BC2524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D105B0FC295B84F900289720 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D105B0FE295B84FE00289720 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		D19D273C295B6F2800BC2524 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D19D273E295B6F2800BC2524 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D19D2740295B6F2800BC2524 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D19D273B295B6F2700BC2524 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D19D2708295A208100BC2524 /* Project object */;
+}
